@@ -1,0 +1,64 @@
+
+  body {
+    background-color: pink;
+    color: black;
+    font-family: 'Jomolhari', serif;
+    padding: 2%;
+
+  }
+
+#pic1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+  margin-top: -3%;
+  width: 106%;
+  margin-left: -3%;
+}
+
+.navli {
+  float: left;
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change link color to #111 on hover */
+.navli a:hover {
+  background-color: #111;
+}
+
+.nav a{
+  color: white;
+}
+
+.nav a:hover{
+  background-color: #111;
+}
+
+footer {
+  width: 920px;
+  height: auto;
+  padding-left:450px;
+  text-align: center;
+  margin: auto;
+
+footer{
+  font-family: 'Arimo', sans-serif;
+}

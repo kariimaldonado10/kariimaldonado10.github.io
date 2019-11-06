@@ -1,63 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
   <head>
-    <meta charset="utf-8">
     <title>Karina Maldonado's Resume</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="resume.css">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Arimo|Jomolhari&display=swap');
+    </style>
+
+  <nav>
+    <ul class="navul">
+  <li class="navli" class="active">  <a href="#contactinfo">Contact Information</a> </li>
+  <li class="navli">  <a href="#education">Education</a> </li>
+  <li class="navli">  <a href="#profexper">Professional Experience</a> </li>
+  <li class="navli">  <a href="#skills">Skills</a> </li>
+  </ul>
+  </nav>
   </head>
 
   <body>
-    <h1>Karina Maldonado's Resume</h1>
-      <img src="kari.jpg" alt="Picture of myself"/>
 
-    <h2>Contact Information</h2>
-    <ul>
-      <li>Davie, FL 33324</li>
-      <li>Cell:954-294-5045</li>
-      <li>E-mail: Kxm838@miami.edu</li>
-    </ul>
+    <header>
+      <h1>Karina Maldonado's Resume</h1>
+    </header>
 
-    <h2>Education</h2>
-    <a href= "https://welcome.miami.edu">University of Miami</a>
-    <p>Bachelor of Schience in Communication Studies</p>
-    <P>Minor: Public Relations</p>
+    <main>
+      <section id="contactinfo">
+        <h2>Contact Information</h2>
+        <div id="pic1"> <img src="kari.jpg" alt="Picture of Karina" /></div>
+        <ul>
+          <li>Davie, FL 33324</li>
+          <li>Cell:954-294-5045</li>
+          <li>E-mail: Kxm838@miami.edu</li>
+        </ul>
+      </section>
 
-    <h2>Professional Experience</h2>
-    <h3>IBIS Studio</h3>
-    <p>Coral Gables, FL.</p>
-    <p>June 2018 - August 2019</p>
-    <h4>Social Media Manager</h4>
-
-    <ul>
-      <li>Provide comprehensive support for senior-level staff, including managing, coordinating projects and processes in support of effective business operations.</li>
-      <li>Proven track record of accurately maintaining detailed records, generating reports, coordinating meetings, and multitasking within fast-paced atmospheres.</li>
-      <li>Adept at managing and streamlining administrative processes to reduce errors, improve accuracy and efficiency, and achieve organizational objectives.</li>
-      <li>Outstanding interpersonal, customer service, leadership, and organizational skills; thrive within detail-oriented, deadline-driven environments.</li>
-    </ul>
-
-    <h3>Llorente y Cuenca</h3>
-    <p>Brickell, FL.</p>
-    <p>April 2018 - September 2018</p>
-    <h4>Intern</h4>
-    <ul>
-      <li>Specialized in communication-related activities for corporate clients and multinational organizations.</li>
-      <li>Assisted on multiple accounts, pitching the media, creating reports, drafting press materials, byline articles, internal stories, and social media posts.</li>
-      <li>Point of contact for colleagues across the agency’s network in Latin America.</li>
-      <li>Participated in weekly staff meetings and ongoing day to day client/team contact.</li>
-      <li>Translation of said content to opposite languages, as needed.</li>
-    </ul>
-
-      <h2>Skills</h2>
-      <ul>
-        <li>Languages: Fluent in Spanish (Professional Speaking and Writing).</li>
-        <li>Computer Skills: Proficient in Excel, PowerPoint, Canva, WordPress, and MailChimp.</li>
-        <li>Conferences Attended: eMerge Americas Technology 2019.</li>
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+       <li class="nav"> <a href="https://welcome.miami.edu">University of Miami</a></li>
+        <li>Bachelor of Science in Communication Studies</li>
+        <li>Minor: Public Relations</li>
       </ul>
+      </section>
 
-      <p> For more information visit <a href= "https://www.linkedin.com/feed/">Karina Maldonado's LinkedIn Page.</a>
+      <section id="profexper">
+        <h2>Professional Experience</h2>
+        <p><strong>IBIS Studio</strong></p>
+        <p>Coral Gables, FL.</p>
+        <p>June 2018 - August 2019</p>
+        <p>Social Media Manager</p>
 
+          <ul>
+            <li>Provide comprehensive support for senior-level staff, including managing, coordinating projects and processes in support of effective business operations.</li>
+            <li>Proven track record of accurately maintaining detailed records, generating reports, coordinating meetings, and multitasking within fast-paced atmospheres.</li>
+            <li>Adept at managing and streamlining administrative processes to reduce errors, improve accuracy and efficiency, and achieve organizational objectives.</li>
+            <li>Outstanding interpersonal, customer service, leadership, and organizational skills; thrive within detail-oriented, deadline-driven environments.</li>
+          </ul>
 
-</body>
+        <p><strong>Llorente y Cuenca</strong></p>
+        <p>Brickell, FL.</p>
+        <p>April 2018 - September 2018</p>
+        <p>Intern</p>
 
+          <ul>
+            <li>Specialized in communication-related activities for corporate clients and multinational organizations.</li>
+            <li>Assisted on multiple accounts, pitching the media, creating reports, drafting press materials, byline articles, internal stories, and social media posts.</li>
+            <li>Point of contact for colleagues across the agency’s network in Latin America.</li>
+            <li>Participated in weekly staff meetings and ongoing day to day client/team contact.</li>
+            <li>Translation of said content to opposite languages, as needed.</li>
+          </ul>
+      </section>
 
+      <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Language</strong></p>
+          <ul>
+            <li>Fluent in Spanish</li>
+          </ul>
+
+        <p><strong>Computer Skills</strong></p>
+          <ul>
+            <li>Excel</li>
+            <li>PowerPoint</li>
+            <li>Canva</li>
+            <li>WordPress</li>
+            <li>MailChimp</li>
+          </ul>
+
+        <p><strong>Conferences Attended</strong></p>
+          <ul>
+            <li>eMerge Americas Technology 2019.</li>
+          </ul>
+      </section>
+    </main>
+
+    <section id="footer">
+    <footer>
+      <p class="navli"> For more information visit: <a href="https://www.linkedin.com/feed/">Karina Maldonado's LinkedIn Page.</a>
+    </footer>
+  </section>
+  </body>
 </html>
