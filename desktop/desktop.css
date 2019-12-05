@@ -11,8 +11,16 @@ body{
   left: 8%;
 }
 
+#homepage {
+  background-color: #f7e8f6;
+}
+
 #homepage1 {
     background-color: #dcd4ca;
+}
+
+#homepage3{
+  background-color: #f1f4df;
 }
 
 header{
