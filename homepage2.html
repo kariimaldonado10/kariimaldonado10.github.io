@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>My Future Travel Adventures</title>
+    <link href="desktop/desktop.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+  <header>
+    <h1>Germany Adventures</h1>
+  </header>
+
+
+  <div class="navClass" id="navDiv">
+    <a href="index.html">Home</a>
+    <a href="homepage1.html">Italy Adventures</a>
+    <a href="homepage2.html" class="active">Germany Adventures</a>
+    <a href="homepage3.html">Puerto Rico Adventures</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("navDiv");
+    if (x.className === "navClass") {
+      x.className += " responsive";
+    } else {
+      x.className = "navClass";
+    }
+  }
+  </script>
+
+  <main>
+    <section id="about germany">
+    <h2>Hallo!</h2>
+    <img src="images/germany.jpg" alt="picture of Germany"/>
+      <h2>About Germany</h2>
+    <p>Germany will be my second destination. I have always dreamed of visiting this country for various reasons. Since a very young age, the German language has always caught my attention. I have taken a couple German classes and now when I finally go I will be able to put my skills to the test. I also plan on practicing more German and hopefully learning new things I didn't know before. There are over 2,000 castles in Germany and I would love to go abroad and see as many castles as I possibly can. The first castle I plan on exploring is the Heidelberg Castle. This castle  dominates the view of the old center of Heidelberg and has had a long and rough history since the earliest castle structure was built. Heidelberg was completely destroyed during the Thirty Years War and later by the French in the 17th century. I truly find the histories of castles to be extremely interesting and I can't wait to see not only this castle but many other castles in Germany.</p>
+  </section>
+
+    <section>
+      <h2>Best Places to Visit in Germany</h2>
+
+      <h3 class="visit germany"><b>1. Berlin</b></h3>
+      <a href="https://www.touropia.com/tourist-attractions-in-berlin/">Read More: Top Berlin Attractions You Can't Miss</a>
+      <img src="images/berlin.jpg" alt="picture of Berlin" id="Berlin"/>
+      <h3><b>2. Heidelberg</b></h3>
+      <a href="https://www.touropia.com/tourist-attractions-in-heidelberg/">Read More: Top 10 Tourist Heidelberg Attractions</a>
+      <img src="images/heidelberg.jpg" alt="picture of Florence" id="Heidelberg"/>
+      <h3><b>3. Dresden</b></h3>
+      <a href="https://www.touropia.com/tourist-attractions-in-dresden/"> Read More: Top 10 Tourist     Dresden Attractions you Can't Miss</a>
+      <img src="images/dresden.jpg" alt="picture of Dresden" id="Dresden"/>
+      <h3><b>4. Frankfurt</h3></b>
+      <a href="https://www.touropia.com/day-trips-from-frankfurt/">Read More: 8 Best Great Day Trips from Frankfurt</a>
+      <img src="images/frankfurt.jpg" alt="picture of Frankfurt" id="Frankfurt"/>
+
+    </section>
+
+
+
+    <h2>Typical German Food</h2>
+    <ul>
+      <li><b>Knödel</b>: Bread dumplings, eaten with mushrooms in a creamy sauce or with meat dishes.</li>
+      <li><b>Kartoffelknödel</b>: Potato dumplings</li>
+      <li><b>Sauerkraut</b>: The most famous vegetable associated with German food. It is eaten in Germany with potatoes and meat.</li>
+      <li><b>Weisswurst</b>: Pale veal sausage, cooked and eaten in Bavaria - usually in midmorning, before noon.</li>
+      <li><b>Stollen and Lebkuchen</b>: Delicious cakes, decorated biscuits and various gingerbread cookies eaten at Christmas time.</li>
+    </ul>
+    </section>
+  </main>
+
+
+
+</body>
+  </html>
