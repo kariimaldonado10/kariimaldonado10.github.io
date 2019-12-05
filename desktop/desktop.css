@@ -11,6 +11,10 @@ body{
   left: 8%;
 }
 
+#homepage1 {
+    background-color: #dcd4ca;
+}
+
 header{
   padding:20px;
 }
