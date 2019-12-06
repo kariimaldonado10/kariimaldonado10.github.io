@@ -1,85 +1,52 @@
 <!DOCTYPE html>
-
-<html lang="en" dir="ltr">
-
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta charset="UTF-8">
-    <title>My Future Travel Adventures</title>
-    <link href="desktop/desktop.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  </head>
-
-  <body id="homepage3">
-
-  <header>
-    <h1>Puerto Rico Adventures</h1>
-  </header>
-
-
-  <div class="navClass" id="navDiv">
-    <a href="index.html" >Home</a>
-    <a href="homepage1.html">Italy Adventures</a>
-    <a href="homepage2.html" >Germany Adventures</a>
-    <a href="homepage3.html" class="active">Puerto Rico Adventures</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
-  <script>
-  function myFunction() {
-    var x = document.getElementById("navDiv");
-    if (x.className === "navClass") {
-      x.className += " responsive";
-    } else {
-      x.className = "navClass";
-    }
-  }
-  </script>
-
-
-  <main>
-    <section id="about_puerto_rico">
-    <h2>Hola!</h2>
-      <img src="images/puertorico.jpg" alt="picture of Puerto Rico"/>
-    <h2>About Puerto Rico</h2>
-    <p>Puerto Rico will be my final destination. I chose this country because I have a lot of family that lives there and I have not gotten the opportunity to ever visit them. Once I arrive in Puerto Rico I definitely want to visit San Juan. San Juan is the capital and most densely populated city in Puerto Rico.
-    San juan is known as La Ciudad Amurallada (the walled city) and is one of the biggest and best natural harbors in the Caribbean. Old San Juan has several plazas including:Plaza de San José, Plaza del Quinto Centenario, Plaza de Armas, and Plaza de Colón. I definitely plan on visiting all of these locations and learning more about the history that came behind each of the plazas. Did you know that the red stripes on the Puerto Rican Flag are symbolic of the “blood” that nourishes the three branches of its government? Including: Legislative, Executive, and Judiciary.</p>
-
-    <section>
-      <h2>Best Places to Visit in Puerto Rico</h2>
-
-      <h3 class="visit puerto rico "><b>1. Bioluminescent Mosquito Bay </b></h3>
-      <a href="https://travel.usnews.com/Puerto_Rico/Things_To_Do/Mosquito_Bay_Vieques_61160/">Read More: The Perfect Beach Experience for Your First Visit</a>
-      <img src="images/pr.jpg" alt="picture of Puerto Rico beach" id="Mosquito"/>
-      <h3><b>2. El Yunque National Rainforest</b></h3>
-      <a href="https://travel.usnews.com/Puerto_Rico/Things_To_Do/El_Yunque_57896/">Read More: The Natural Wonders of Puerto Rico- El Yunque National Rainforest</a>
-      <img src="images/forest.jpg" alt="picture of Puerto Rico Forest" id="Forest"/>
-      <h3><b>3. San Juan</b></h3>
-      <a href="https://www.forbes.com/sites/michellegross/2019/07/02/what-to-do-in-san-juan-puerto-rico/#76550fac6823">Read More: Touring the Streets of San Juan, Puerto Rico</a>
-      <img src="images/sanjuan.jpg" alt="picture of San Juan" id="sanjuan"/>
-      <h3><b>4. El Morro</h3></b>
-      <a href="https://www.discoverpuertorico.com/article/exploring-castillo-san-felipe-del-morro-old-san-juan">Read More: Exploring El Morro Fort in Puerto Rico</a>
-      <img src="images/morro.jpg" alt="picture of el morro" id="morro"/>
-
-    </section>
-
-
-
-    <h2>Typical Puerto Rican Food</h2>
-    <ul>
-      <li><b>Mofongo</b>: Deep-fried green plantains mashed together with sautéed onion, garlic, olive oil and other ingredients such pork or seafood.</li>
-      <li><b>Pernil</b>: Slow-roasted marinated pork shoulder.</li>
-      <li><b>Arroz con gandules</b>: A combination of rice, pigeon peas, and pork - It is one of the signature rice dishes of Puerto Rican cuisine.</li>
-      <li><b>Pastelón</b>: Sweet plantains mashed together and layered with ground beef much like lasagna.</li>
-      <li><b>Alcapurrias</b>: Deep-fried "fritters" filled with savory ground meat or fish. </li>
-    </ul>
-
-    </section>
-  </main>
-
+<html dir="ltr" lang="en">
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta charset="UTF-8">
+	<title>My Future Travel Adventures</title>
+	<link href="desktop/desktop.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body id="homepage3">
+	<header>
+		<h1>Puerto Rico Adventures</h1>
+	</header>
+	<div class="navClass" id="navDiv">
+		<a href="index.html">Home</a> <a href="homepage1.html">Italy Adventures</a> <a href="homepage2.html">Germany Adventures</a> <a class="active" href="homepage3.html">Puerto Rico Adventures</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+	<script>
+	 function myFunction() {
+	   var x = document.getElementById("navDiv");
+	   if (x.className === "navClass") {
+	     x.className += " responsive";
+	   } else {
+	     x.className = "navClass";
+	   }
+	 }
+	</script>
+	<main>
+		<section>
+			<h2>Hola!</h2><img alt="picture of Puerto Rico" src="images/puertorico.jpg">
+			<h2>About Puerto Rico</h2>
+			<p>Puerto Rico will be my final destination. I chose this country because I have a lot of family that lives there and I have not gotten the opportunity to ever visit them. Once I arrive in Puerto Rico I definitely want to visit San Juan. San Juan is the capital and most densely populated city in Puerto Rico. San juan is known as La Ciudad Amurallada (the walled city) and is one of the biggest and best natural harbors in the Caribbean. Old San Juan has several plazas including:Plaza de San José, Plaza del Quinto Centenario, Plaza de Armas, and Plaza de Colón. I definitely plan on visiting all of these locations and learning more about the history that came behind each of the plazas. Did you know that the red stripes on the Puerto Rican Flag are symbolic of the “blood” that nourishes the three branches of its government? Including: Legislative, Executive, and Judiciary.</p>
+		</section>
+		<section>
+			<h2>Best Places to Visit in Puerto Rico</h2>
+			<h3 class="visitpuertorico"><b>1. Bioluminescent Mosquito Bay</b></h3><a href="https://travel.usnews.com/Puerto_Rico/Things_To_Do/Mosquito_Bay_Vieques_61160/">Read More: The Perfect Beach Experience for Your First Visit</a> <img alt="picture of Puerto Rico beach" src="images/pr.jpg">
+			<h3><b>2. El Yunque National Rainforest</b></h3><a href="https://travel.usnews.com/Puerto_Rico/Things_To_Do/El_Yunque_57896/">Read More: The Natural Wonders of Puerto Rico- El Yunque National Rainforest</a> <img alt="picture of Puerto Rico Forest" src="images/forest.jpg">
+			<h3><b>3. San Juan</b></h3><a href="https://www.forbes.com/sites/michellegross/2019/07/02/what-to-do-in-san-juan-puerto-rico/#76550fac6823">Read More: Touring the Streets of San Juan, Puerto Rico</a> <img alt="picture of San Juan" src="images/sanjuan.jpg">
+			<h3><b>4. El Morro</b></h3><a href="https://www.discoverpuertorico.com/article/exploring-castillo-san-felipe-del-morro-old-san-juan">Read More: Exploring El Morro Fort in Puerto Rico</a> <img alt="picture of el morro" src="images/morro.jpg">
+		</section>
+		<section>
+			<h2>Typical Puerto Rican Food</h2>
+			<ul>
+				<li><b>Mofongo</b>: Deep-fried green plantains mashed together with sautéed onion, garlic, olive oil and other ingredients such pork or seafood.</li>
+				<li><b>Pernil</b>: Slow-roasted marinated pork shoulder.</li>
+				<li><b>Arroz con gandules</b>: A combination of rice, pigeon peas, and pork - It is one of the signature rice dishes of Puerto Rican cuisine.</li>
+				<li><b>Pastelón</b>: Sweet plantains mashed together and layered with ground beef much like lasagna.</li>
+				<li><b>Alcapurrias</b>: Deep-fried "fritters" filled with savory ground meat or fish.</li>
+			</ul>
+		</section>
+	</main>
 </body>
-  </html>
+</html>
