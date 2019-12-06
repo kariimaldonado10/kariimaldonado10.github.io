@@ -1,128 +1,107 @@
 <!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta charset="UTF-8">
+	<title>My Future Travel Adventures</title>
+	<link href="desktop/desktop.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body id="homepage">
+	<header>
+		<h1>Welcome to Karina's Future Travel Adventures!</h1>
+	</header>
+	<div class="navClass" id="navDiv">
+		<a class="active" href="index.html">Home</a> <a href="homepage1.html">Italy Adventures</a> <a href="homepage2.html">Germany Adventures</a> <a href="homepage3.html">Puerto Rico Adventures</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+	<main>
+		<section id="My_Travel_Story">
+			<h2>My Travel Story</h2>
+			<p>My love for traveling began back when I was 12 years old. My family and I decided to travel to Europe where we visited Spain, France, and Italy for almost 2 months. My favorite part about traveling is learning new cultures, trying new foods, meeting new people, and visiting different tourist attractions. I decided I would create this project in order to plan out my future travel adventures for after I graduate December 2019. I truly look forward to this new chapter in my life and I can't wait to visit and discover different destinations. Below, you can find some pictures of myself while traveling. These places include Georgia, Tennessee, Naples, and New York. I can't wait to keep growing my travel adventures and share with you some places and foods I plan on experiencing while traveling!</p>
+			<div class="mainSlideDiv">
+				<div class="singleSlideDiv change">
+					<div class="numb">
+						1 / 5
+					</div><img alt="a Picture of Karina in Georgia on a walkway" class="slideimgz" src="images/georgiakari.jpg">
+					<div class="text">
+						Georgia
+					</div>
+				</div>
+				<div class="singleSlideDiv change">
+					<div class="numb">
+						2 / 5
+					</div><img alt="a Picture of Karina in Tennessee" class="slideimgz" src="images/ten.jpg">
+					<div class="text">
+						Tennessee
+					</div>
+				</div>
+				<div class="singleSlideDiv change">
+					<div class="numb">
+						3 / 5
+					</div><img alt="a Picture of Me Paddle Boarding in Naples" class="slideimgz" src="images/travels.jpg">
+					<div class="text">
+						Naples
+					</div>
+				</div>
+				<div class="singleSlideDiv change">
+					<div class="numb">
+						4 / 5
+					</div><img alt="a Picture of Me in Georgia" class="slideimgz" src="images/travel.jpg">
+					<div class="text">
+						Georgia
+					</div>
+				</div>
+				<div class="singleSlideDiv change">
+					<div class="numb">
+						5 / 5
+					</div><img alt="a Picture of Me in NY" class="slideimgz" src="images/ny.jpg">
+					<div class="text">
+						New York
+					</div>
+				</div><a class="prevArrow" onclick="changeSlide(-1)">&#10094;</a> <a class="nextArrow" onclick="changeSlide(1)">&#10095;</a>
+			</div><br>
+			<div style="text-align:center">
+				<span class="dot" onclick="activeSlide(1)"></span> <span class="dot" onclick="activeSlide(2)"></span> <span class="dot" onclick="activeSlide(3)"></span> <span class="dot" onclick="activeSlide(4)"></span> <span class="dot" onclick="activeSlide(5)"></span>
+			</div>
+			<script>
+			var slideNumb = 1;
+			cSlide(slideNumb);
 
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			function changeSlide(n) {
+			cSlide(slideNumb += n);
+			}
 
-    <meta charset="UTF-8">
-    <title>My Future Travel Adventures</title>
-    <link href="desktop/desktop.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			function activeSlide(n) {
+			cSlide(slideNumb = n);
+			}
 
-  </head>
-
-  <body id="homepage">
-
-  <header>
-    <h1>Welcome to Karina's Future Travel Adventures!</h1>
-  </header>
-
-  <div class="navClass" id="navDiv">
-    <a href="index.html" class="active">Home</a>
-    <a href="homepage1.html">Italy Adventures</a>
-    <a href="homepage2.html">Germany Adventures</a>
-    <a href="homepage3.html">Puerto Rico Adventures</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-  <main>
-    <section id="My_Travel_Story">
-    <h2>My Travel Story</h2>
-    <p>My love for traveling began back when I was 12 years old. My family and I decided to travel to Europe where we visited Spain, France, and Italy for almost 2 months. My favorite part about traveling is learning new cultures, trying new foods, meeting new people, and visiting different tourist attractions. I decided I would create this project in order to plan out my future travel adventures for after I graduate December 2019. I truly look forward to this new chapter in my life and I can't wait to visit and discover different destinations. Below, you can find some pictures of myself while traveling. These places include Georgia, Tennessee, Naples, and New York. I can't wait to keep growing my travel adventures and share with you some places and foods I plan on experiencing while traveling! </p>
-
-
-    <div class="mainSlideDiv">
-
-<div class="singleSlideDiv change">
-  <div class="numb">1 / 5</div>
-  <img class="slideimgz" src="images/georgiakari.jpg" alt="a Picture of Karina in Georgia on a walkway">
-  <div class="text">Georgia</div>
-</div>
-
-<div class="singleSlideDiv change">
-  <div class="numb">2 / 5</div>
-  <img class="slideimgz" src="images/ten.jpg" alt="a Picture of Karina in Tennessee">
-  <div class="text">Tennessee</div>
-</div>
-
-<div class="singleSlideDiv change">
-  <div class="numb">3 / 5</div>
-  <img class="slideimgz" src="images/travels.jpg" alt="a Picture of Me Paddle Boarding in Naples">
-  <div class="text">Naples</div>
-</div>
-
-<div class="singleSlideDiv change">
-  <div class="numb">4 / 5</div>
-  <img class="slideimgz" src="images/travel.jpg" alt="a Picture of Me in Georgia">
-  <div class="text">Georgia</div>
-</div>
-
-<div class="singleSlideDiv change">
-  <div class="numb">5 / 5</div>
-  <img class="slideimgz" src="images/ny.jpg" alt="a Picture of Me in NY">
-  <div class="text">New York</div>
-</div>
-
-<a class="prevArrow" onclick="changeSlide(-1)">&#10094;</a>
-<a class="nextArrow" onclick="changeSlide(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="activeSlide(1)"></span>
-  <span class="dot" onclick="activeSlide(2)"></span>
-  <span class="dot" onclick="activeSlide(3)"></span>
-  <span class="dot" onclick="activeSlide(4)"></span>
-  <span class="dot" onclick="activeSlide(5)"></span>
-</div>
-
-
-<script>
-var slideNumb = 1;
-cSlide(slideNumb);
-
-function changeSlide(n) {
-  cSlide(slideNumb += n);
-}
-
-function activeSlide(n) {
-  cSlide(slideNumb = n);
-}
-
-function cSlide(n) {
-  var i;
-  var slideVariable = document.getElementsByClassName("singleSlideDiv");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slideVariable.length) {slideNumb = 1}
-  if (n < 1) {slideNumb = slideVariable.length}
-  for (i = 0; i < slideVariable.length; i++) {
-      slideVariable[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slideVariable[slideNumb-1].style.display = "block";
-  dots[slideNumb-1].className += " active";
-}
-</script>
-
-
-<script>
-function myFunction() {
-  var x = document.getElementById("navDiv");
-  if (x.className === "navClass") {
-    x.className += " responsive";
-  } else {
-    x.className = "navClass";
-  }
-}
-</script>
-
-
-    </section>
-  </main>
-
+			function cSlide(n) {
+			var i;
+			var slideVariable = document.getElementsByClassName("singleSlideDiv");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slideVariable.length) {slideNumb = 1}
+			if (n < 1) {slideNumb = slideVariable.length}
+			for (i = 0; i < slideVariable.length; i++) {
+			   slideVariable[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+			   dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slideVariable[slideNumb-1].style.display = "block";
+			dots[slideNumb-1].className += " active";
+			}
+			</script>
+			<script>
+			function myFunction() {
+			var x = document.getElementById("navDiv");
+			if (x.className === "navClass") {
+			 x.className += " responsive";
+			} else {
+			 x.className = "navClass";
+			}
+			}
+			</script>
+		</section>
+	</main>
 </body>
 </html>
