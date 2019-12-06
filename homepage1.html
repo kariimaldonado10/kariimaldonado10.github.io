@@ -1,80 +1,51 @@
 <!DOCTYPE html>
-
-<html lang="en" dir="ltr">
-
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>My Future Travel Adventures</title>
-    <link href="desktop/desktop.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  </head>
-
-  <body id="homepage1">
-
-  <header>
-    <h1>Italy Adventures</h1>
-  </header>
-
-  <div class="navClass" id="navDiv">
-    <a href="index.html" >Home</a>
-    <a href="homepage1.html" class="active">Italy Adventures</a>
-    <a href="homepage2.html">Germany Adventures</a>
-    <a href="homepage3.html">Puerto Rico Adventures</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
-  <script>
-  function myFunction() {
-    var x = document.getElementById("navDiv");
-    if (x.className === "navClass") {
-      x.className += " responsive";
-    } else {
-      x.className = "navClass";
-    }
-  }
-  </script>
-
-  <main>
-    <section id="about italy">
-    <h2>Ciao!</h2>
-      <img src="images/italy.jpg" alt="picture of Italy"/>
-    <h2>About Italy</h2>
-    <p>Although I visited Italy back when I was 12 years old, I plan on this being my first destination once I graduate college and begin my travel adventures. One of the reasons is due to the fact that Italy has more masterpieces per square mile than any other country and it's the fifth most visited country in the world, welcoming over 45 million visitors annually! The second reason being that unsurprisingly, Italy is the world's largest exporter of wine- and hey, who doesn't like wine. Italy surrounds two of the world’s smallest countries. These are San Marino in Northern Italy, which is also the oldest republic in the world and Vatican City in Rome, the smallest country in the world. Did you know that the colors of the Italian flag have a special meaning? Green represents hope, white represents faith, and red represents charity.</p>
-  </section>
-
-    <section>
-      <h2>Best Places to Visit in Italy</h2>
-
-      <h3 class="visit italy"><b>1. Rome</b></h3>
-      <a href="https://www.earthtrekkers.com/rome-italy-2-day-itinerary/">Read More: The Perfect Itinerary for Your First Visit</a>
-      <img src="images/rome.jpg" alt="picture of Rome" id="Rome"/>
-      <h3><b>2. Florence</b></h3>
-      <a href="https://www.earthtrekkers.com/best-things-to-do-first-visit-to-florence/">Read More: 10 Things to do on Your First Visit to Florence</a>
-      <img src="images/florence.jpg" alt="picture of Florence" id="Forence"/>
-      <h3><b>3. Tuscany</b></h3>
-      <a href="https://www.earthtrekkers.com/touring-hill-towns-tuscany/">Read More: Touring the Hill Towns of Tuscany, Italy</a>
-      <img src="images/tuscany.jpg" alt="picture of Tuscany" id="Tuscany"/>
-      <h3><b>4. Siena</h3></b>
-      <a href="https://www.earthtrekkers.com/one-perfect-day-in-siena-itinerary/">Read More: Explore the Perfect Day in Siena, Italy</a>
-      <img src="images/siena.jpg" alt="picture of Siena" id="Siena"/>
-
-    </section>
-
-
-    <h2>Typical Italian Food</h2>
-    <ul>
-      <li><b>Lasagna</b>: Pasta dish with tomatoes, mozzarella cheese, and mince meat filling.</li>
-      <li><b>Pesto</b>: Thick green sauce with olives, herbs and olive oil, pine kernels and parmiggiano cheese.</li>
-      <li><b>Pizza</b>: The most famous Italian dish, and it was invented in Napoli/Naples around 1860.</li>
-      <li><b>Calzone</b>: Folded up pizza bread filled with tomatoes, ham, cheese and all kinds of filling.</li>
-    </ul>
-    </section>
-  </main>
-
-
+<html dir="ltr" lang="en">
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta charset="UTF-8">
+	<title>My Future Travel Adventures</title>
+	<link href="desktop/desktop.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body id="homepage1">
+	<header>
+		<h1>Italy Adventures</h1>
+	</header>
+	<div class="navClass" id="navDiv">
+		<a href="index.html">Home</a> <a class="active" href="homepage1.html">Italy Adventures</a> <a href="homepage2.html">Germany Adventures</a> <a href="homepage3.html">Puerto Rico Adventures</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+	<script>
+	 function myFunction() {
+	   var x = document.getElementById("navDiv");
+	   if (x.className === "navClass") {
+	     x.className += " responsive";
+	   } else {
+	     x.className = "navClass";
+	   }
+	 }
+	</script>
+	<main>
+		<section>
+			<h2>Ciao!</h2><img alt="picture of Italy" src="images/italy.jpg">
+			<h2>About Italy</h2>
+			<p>Although I visited Italy back when I was 12 years old, I plan on this being my first destination once I graduate college and begin my travel adventures. One of the reasons is due to the fact that Italy has more masterpieces per square mile than any other country and it's the fifth most visited country in the world, welcoming over 45 million visitors annually! The second reason being that unsurprisingly, Italy is the world's largest exporter of wine- and hey, who doesn't like wine. Italy surrounds two of the world’s smallest countries. These are San Marino in Northern Italy, which is also the oldest republic in the world and Vatican City in Rome, the smallest country in the world. Did you know that the colors of the Italian flag have a special meaning? Green represents hope, white represents faith, and red represents charity.</p>
+		</section>
+		<section>
+			<h2>Best Places to Visit in Italy</h2>
+			<h3 class="visititaly"><b>1. Rome</b></h3><a href="https://www.earthtrekkers.com/rome-italy-2-day-itinerary/">Read More: The Perfect Itinerary for Your First Visit</a> <img alt="picture of Rome" src="images/rome.jpg">
+			<h3><b>2. Florence</b></h3><a href="https://www.earthtrekkers.com/best-things-to-do-first-visit-to-florence/">Read More: 10 Things to do on Your First Visit to Florence</a> <img alt="picture of Florence" src="images/florence.jpg">
+			<h3><b>3. Tuscany</b></h3><a href="https://www.earthtrekkers.com/touring-hill-towns-tuscany/">Read More: Touring the Hill Towns of Tuscany, Italy</a> <img alt="picture of Tuscany" src="images/tuscany.jpg">
+			<h3><b>4. Siena</b></h3><a href="https://www.earthtrekkers.com/one-perfect-day-in-siena-itinerary/">Read More: Explore the Perfect Day in Siena, Italy</a> <img alt="picture of Siena" src="images/siena.jpg">
+		</section>
+		<section>
+			<h2>Typical Italian Food</h2>
+			<ul>
+				<li><b>Lasagna</b>: Pasta dish with tomatoes, mozzarella cheese, and mince meat filling.</li>
+				<li><b>Pesto</b>: Thick green sauce with olives, herbs and olive oil, pine kernels and parmiggiano cheese.</li>
+				<li><b>Pizza</b>: The most famous Italian dish, and it was invented in Napoli/Naples around 1860.</li>
+				<li><b>Calzone</b>: Folded up pizza bread filled with tomatoes, ham, cheese and all kinds of filling.</li>
+			</ul>
+		</section>
+	</main>
 </body>
-  </html>
+</html>
